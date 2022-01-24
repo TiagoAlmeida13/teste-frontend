@@ -1,0 +1,153 @@
+:root{
+    --blue: #0099de;
+    --darkblue: #1c3c50;
+    --red: #f5523e;
+    --gray: #ebf0f1;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+.menu-nav .nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--blue);
+}
+
+.menu-nav .nav .title{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    color: #fff;
+}
+
+.menu-nav .nav .title p{
+    margin-top: 60px;
+}
+
+.menu-nav .nav .social-media img{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.main{
+    background: var(--gray);
+}
+
+.main .carrousel{
+    display: flex;
+    justify-content: center;
+}
+
+.main .carrousel img{
+    margin-top: 50px;
+}
+
+.main .top{
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.main .top .highlight{
+    display: flex;
+}
+
+.main .top .highlight div{
+    margin-top: 25px;
+    min-height: 200px;
+    min-width: 350px;
+    background: url('../assets/img/desktop/highlight-01.png');
+    background-size: cover;
+}
+
+.main .top .highlight div:nth-child(2){
+    margin-left: 45px;
+    background: url('../assets/img/desktop/highlight-02.png');
+    background-size: cover;
+}
+
+.main .top .highlight div:nth-child(3){
+    margin-left: 45px;
+    background: url('../assets/img/desktop/highlight-03.png');
+    background-size: cover;
+}
+
+.main .top .highlight div p{
+    margin-top: 45%;
+}
+
+.main .top .highlight .highlight-title{
+    min-width: 35%;
+    max-width: 35%;
+    text-align: center;
+    color: #fff;
+    background: var(--red);
+    position: relative;
+}
+
+.main .mid{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.main .mid .container{
+    display: grid;
+    grid-template-columns: 820px 300px;
+}
+
+.main .mid .container .mid-container{
+    display: grid;
+    grid-template-columns: 322px 300px;
+}
+
+.main .mid .container .mid-container div{
+    width: 350px;
+
+}
+
+.main .mid .container .mid-container div:nth-child(2), div:nth-child(4){
+    margin-left: 75px;
+}
+
+.main .mid .container .mid-container div img{
+    width: 350px;
+    height: 200px;
+}
+
+.main .mid .container .mid-container div h4{
+    color: var(--blue);
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.main .mid .container .mid-container div p{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--darkblue)
+}
+
+.main .mid .container .mid-container div hr{
+    margin-top: 20px;
+}
+
+.main .mid .container h6{
+    text-align: right;
+    color: #919191;
+}
+
+.main .bottom{
+    margin-left: 100px;
+}
+
+.main .bottom .container{
+    display: grid;
+}
+
+footer{
+    background: var(--blue);
+}
