@@ -148,6 +148,92 @@
     display: grid;
 }
 
-footer{
+.bottom{
+    margin-top: 50px;
+}
+
+.bottom .container{
+    display: grid;
+    grid-template-columns: 400px 350px 350px;
+}
+
+.bottom .container .nav .news{
+    min-width: 300px;
+    max-width: 350px;
+}
+
+.bottom .container .nav .news h3{
+    color: #0099de;
+}
+
+.bottom .container .nav .news p{
+    color: #1c3c50;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.bottom .container .se-pirulita h3{
+    color: var(--red);
+}
+
+.bottom .container .se-pirulita span{
+    display: flex;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.bottom .container .se-pirulita span h4{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-weight: 300;
+    color: var(--red);
+}
+
+.bottom .container .se-pirulita span p{
+    margin-left: 10px;
+    color: var(--darkblue);
+}
+
+.bottom .container .suco-cevadis h3{
+    color: var(--red);
+}
+
+.bottom .container .suco-cevadis span{
+    display: flex;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.bottom .container .suco-cevadis span h4{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-weight: 300;
+    color: var(--red);
+}
+
+.bottom .container .suco-cevadis span p{
+    margin-left: 10px;
+    color: var(--darkblue);
+}
+
+.back-to-top{
+    margin-top: 300px;
+    height: 30px;
     background: var(--blue);
+}
+
+.back-to-top p{
+    display: flex;
+    justify-content: right;
+    height: 30px;
+    align-items: center;
+    margin-right: 100px;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer{
+    background: var(--darkblue);
+    height: 75px;
 }
